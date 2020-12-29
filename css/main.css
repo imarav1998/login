@@ -1,0 +1,101 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("../images/1.gif"), url("../images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-blend-mode: multiply;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+.form {
+  width: 40%;
+  margin: 8% auto;
+  padding: 100px 0;
+  background: #f1f1df;
+}
+
+.form h1 {
+  text-align: center;
+  font-size: 50px;
+  color: darkcyan;
+  padding-bottom: 50px;
+}
+
+.form-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-body input[type="text"], .form-body input[type="email"], .form-body input[type="password"], .form-body input[type="number"] {
+  width: 50%;
+  margin: 1% auto;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid grey;
+  background-color: #fcffec;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.form-body label {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+}
+
+.form-body label input {
+  text-align: center;
+  margin: 1%;
+}
+
+.form-body input[type='submit'] {
+  width: 30%;
+  padding: 10px;
+  margin: 1% auto;
+  text-transform: uppercase;
+}
+
+#lo {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#lo a {
+  color: #0e7ad8;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .form {
+    width: 60%;
+  }
+  .form h1 {
+    font-size: 40px;
+  }
+  .form-body input[type="text"], .form-body input[type="email"], .form-body input[type="password"], .form-body input[type="number"] {
+    width: 60%;
+  }
+  .form-body label {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

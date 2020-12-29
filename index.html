@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="form">
+        <h1>form validation</h1>
+        <form action="test.php" class="form-body" name="form" method="POST" onsubmit="return validate()">
+            <input type="text" name="name" placeholder="first name" onkeypress=" return filter()"></input>
+            <input type="text" name="last-name" placeholder="last name" onkeypress=" return filter()">
+            <label for="gender">gender
+            <label for="male"><input type="radio" name="gender[]" value="MALE">Male</label>
+            <label for="female"><input type="radio" name="gender[]" value="FEMALE">Female</label>
+            <label for="others"><input type="radio" name="gender[]" value="OTHERS">Others</label>
+            </label>          
+            <input type="number" name="age" placeholder="age">        
+            <input type="email" name="email" placeholder="email">      
+            <input type="password" name="password" placeholder="password"> 
+            <input type="password" name="confirm-password" placeholder="confirm password">    
+            <input type="submit">
+        </form>
+        <div id="lo"><a href="login.html">sign in</a></div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
